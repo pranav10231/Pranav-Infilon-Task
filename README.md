@@ -21,7 +21,8 @@ To run this automation suite locally, ensure you have **Java (JDK 11 or higher)*
 2. Execute the test suite via Maven or import/open the files in IntelliJ and run the test file:
    mvn clean test
 
-**Framework Choice Justification**
+## 🚀 **Framework Choice Justification**
+
 Industry Standard & Robustness: Java and Selenium offer unmatched community support, mature libraries, and highly stable browser automation drivers, making them ideal for handling structured web workflows.
 
 Scalability & Maintenance: Pairing Java with a build management tool like Maven ensures effortless dependency management (via pom.xml) and seamless integration with CI/CD platforms like Jenkins.
