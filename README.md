@@ -29,7 +29,7 @@ Scalability & Maintenance: Pairing Java with a build management tool like Maven 
 
 Strong Assertions: The built-in testing framework allows for clean validation of text presence, page transitions, and structured test reporting
 
-**Architecture Explanation**
+## 🚀 **Architecture Explanation**
 This project follows the Page Object Model (POM) design pattern to achieve a clean separation of concerns. Under the src/test/java package, the application is split into two distinct layers: Pages and Tests. The Pages folder houses individual class files for each screen (HomePage, CareerPage, and ArticlePage). These classes act as repositories for web elements (UI locators) and encapsulate page-specific behaviors or actions as reusable methods
 
 The Tests folder contains the actual test execution scripts. These scripts call the structural methods defined in the Page objects to perform actions
